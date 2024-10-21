@@ -1,8 +1,6 @@
 # 🎬 E o Oscar vai para...? 
 Banco de dados sobre o Oscar, contendo informações sobre indicados e vencedores de diferentes categorias ao longo dos anos.
 
-# E o Oscar vai para...?
-
 01. **Quantas vezes Natalie Portman foi indicada ao Oscar?**  
    **Q:** `db["oscar"].countDocuments({ "nome_do_indicado": "Natalie Portman" });`  
    **R:** 03 indicações.
